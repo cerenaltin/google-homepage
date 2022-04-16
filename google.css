@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: #5f6368;
+    box-sizing: border-box;
+}
+.navbar {
+    width: 100%;
+    height: 80px;
+    font-size: 14px;
+    
+    
+}
+.navbar ul {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.rightnavbar{
+    float: right;
+    margin-right: 20px;
+    list-style: none;
+    display: inline-block;
+    line-height: 40px;
+    
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 8px;
+    line-height: 40px;
+    
+}
+.navbar ul li a:hover {
+text-decoration: underline;
+opacity: .85;
+    
+}
+img.yuvarlak {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    
+}
+.center {
+   flex: 1;
+}
+.center .google {
+    display: block;
+    margin: 0px auto;
+    margin-top: 107px;
+    margin-bottom: 20px;
+    
+}
+.topnav {
+    width: 580px;
+    margin: 0px auto;
+    position: relative;
+    margin-top: -8px;
+    text-align: center;
+
+}
+ .topnav .searchbox {
+     display: block;
+     border: 1px solid #ddd;
+     color: rgba(0,0,0,0.87);
+     font-size: 16px;
+     padding: 13px;
+     padding-left: 45px;
+     border-radius: 25px;
+     width: 100%;
+     outline: none;
+     box-shadow: 100ms;
+ }   
+ .topnav .searchbox:hover {
+     border: 1px solid #fff;
+     box-shadow: 0 0 2px rgba(0, 0, 0, 0.05),
+     0 0 2px rgba(0, 0, 0, 0.05),
+     0 0 2px rgba(0, 0, 0, 0.05),
+     0 0 3px rgba(0, 0, 0, 0.05),
+     0 0 4px rgba(0, 0, 0, 0.05),
+     0 0 5px rgba(0, 0, 0, 0.05),
+     0 0 4px rgba(0, 0, 0, 0.05),
+     0 0 5px rgba(0, 0, 0, 0.05)
+ }
+ .topnav .searchlogo{
+     width: 20px;
+     opacity: .4;
+     position: absolute;
+     top: 13px;
+     left: 14px;
+ }
+ .topnav .voicelogo {
+     width: 20px;
+     position: absolute;
+     top: 13px;
+     right: 24px;
+ }
+ .s-btn {
+     border: none;
+     padding: 9px 15px;
+     color: #666;
+     font-size: 14px;
+     border-radius: 4px;
+     display: inline-block;
+     margin-right: 10px;
+     margin-top: 28px;
+     outline: none;
+     cursor: pointer;
+ }
+ .s-btn:hover {
+     border: 1px solid #aaa;
+ }
+    
+.footer {
+    position: fixed;
+    font-size: 13px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #f2f2f2;    
+    
+}
+.footer a:hover {
+    text-decoration: underline;
+
+}
+.footer ul li {
+    list-style: none;
+    margin: 20px 10px 10px 20px;
+    display: inline-block;
+}
+.footer-right {
+    float: right;
+    margin-top: 0%;  
+}
+.footer-left {
+    display: inline-block;
+  
+}
